@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="0" ignored="0" total="1" passed="1">
+  <reporter-output>
+  </reporter-output>
+  <suite name="TestNG Listeners Suite" duration-ms="33455" started-at="2020-04-06T11:38:15Z" finished-at="2020-04-06T11:38:49Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="33455" started-at="2020-04-06T11:38:15Z" finished-at="2020-04-06T11:38:49Z">
+      <class name="com.beyondhr.tests.LoginTest">
+        <test-method status="PASS" signature="setUp()[pri:0, instance:com.beyondhr.tests.LoginTest@3a44431a]" name="setUp" is-config="true" duration-ms="15046" started-at="2020-04-06T11:38:15Z" finished-at="2020-04-06T11:38:30Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUp -->
+        <test-method status="PASS" signature="loginToBeyondHrValidCredentials(java.lang.String, java.lang.String)[pri:0, instance:com.beyondhr.tests.LoginTest@3a44431a]" name="loginToBeyondHrValidCredentials" duration-ms="16340" started-at="2020-04-06T11:38:32Z" data-provider="getTestCaseData" finished-at="2020-04-06T11:38:48Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[admin@admin.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[adminadmin]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginToBeyondHrValidCredentials -->
+        <test-method status="PASS" signature="tearDown()[pri:0, instance:com.beyondhr.tests.LoginTest@3a44431a]" name="tearDown" is-config="true" duration-ms="826" started-at="2020-04-06T11:38:48Z" finished-at="2020-04-06T11:38:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDown -->
+      </class> <!-- com.beyondhr.tests.LoginTest -->
+    </test> <!-- Test -->
+  </suite> <!-- TestNG Listeners Suite -->
+</testng-results>
